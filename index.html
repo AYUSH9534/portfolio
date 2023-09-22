@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfoliio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="lg.png" class="logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Ayush</span> <br>From India</h1>
+            </div>
+        </div>
+        </div>
+    
+    <!-- /*-------------about---------*/ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="ab-PhotoRoom.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hey... I'm Ayush,
+                        passionate about coding and web designing.Ability to perform well in a team with a Bachelor of technology focused in computer science and engineering with speialization internet of things from Greater Noida Institute of Technology, Greater Noida.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span></span>Data structre and Algorithm</li>
+                            <li><span></span>Java</li>
+                            <li><span></span>Python</li>
+                            <li><span></span>JavaScript</li>
+                            <li><span></span>React</li>
+                            <li><span></span>CSS</li>
+                            <li><span></span>Bootstrap</li>
+                            <li><span></span>Git & Github</li>
+                            <li><span></span>Oops Concept</li>
+                            <li><span></span>DBMS</li>
+                            <li><span></span>OS</li>
+                            <li><span></span>SQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>July 2023- August 2023</span><br>Web Developer Intern at CodeClause,</li>
+
+                            <br>
+                            <p>As a Web Development Intern, i will have the exciting opportunity to gain hands-on experience in the dynamic world of web development.During this immersive experience, i will work with various technologies, including HTML, CSS, JavaScript, and other web development frameworks.By the end of this internship, i will have a comprehensive understanding of modern web development techniques and tools, empowering me to pursue a successful career in the fast-paced and ever-evolving field of web development.</p><br>
+                            <li><span>August 2023 - September 2023</span><br>Intern at iNeuron,</li>
+                            <p>This project is Employee Management system.It is a web-based
+                                application designed to streamline and enhance the process of managing
+                                employee within an organization.This system leverages the React.js
+                                framework for building user interfaces,to create a responsive and dynamic
+                                user experience.</p>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - 2024</span><br>Bachelor of Technology(B.TECH) in computer science from GNIOT GROUP OF
+                                INSTITUTION,Greater Noida <br> Grade : 7.5 SGPA onward</li><br>
+                            <li><span>2017 - 2019</span><br>Intermediate from MLSM COLLEGE DARBHANGA <br>Grade : 75%</li><br>
+                            <li><span>2016 - 2017</span><br>Matriculation from Ram julum high school,keoti <br> Grade : 80%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------services------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Welcome to my personal portfolio! I'm a skilled web designer with a passion for creating stunning and functional online experiences. Explore my portfolio to see how I can bring your digital vision to life. Let's collaborate to design and develop a website that reflects your unique style and achieves your online goals.</p>
+                 
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Welcome to my personal portfolio! I'm a passionate UI/UX designer dedicated to crafting seamless digital experiences. Explore my work and discover how I can enhance your project with user-centric design expertise. Let's collaborate to turn your vision into captivating and intuitive user interfaces that leave a lasting impression.</p>
+                    
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Welcome to my personal portfolio! I'm a dedicated app designer committed to turning your ideas into beautiful and user-friendly mobile applications. Explore my portfolio to see how I can transform your vision into a seamless digital experience. Let's work together to design and create the perfect app that stands out in the digital landscape.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------portfolio--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Certificates</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="java.png" alt="">
+                    <div class="layer">
+                        <h3>Java</h3>
+    I successful complete the Core Java Certification program.This represents a significant milestone in my journey as a Java developer.
+                        <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="problem.png" alt="">
+                    <div class="layer">
+                        <h3>Problem solving</h3>
+                        I successful complete the Problem Solving program for DSA program.which helpfull for software development.
+                        <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="js.png" alt="">
+                    <div class="layer">
+                        <h3>JavaScript</h3>
+                        I completed the JavaScript Certification program, marking a significant milestone in my journey as a web developer. 
+                        <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="python.png" alt="">
+                    <div class="layer">
+                        <h3>Python</h3>
+                        I successful complete the Python program, a significant milestone in my journey as a Python developer and enthusiast. 
+                        <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="TCS1.png" alt="">
+                    <div class="layer">
+                        <h3>Soft Skill</h3>
+                        I successful completed the Soft Skills Certification program offered by TCS, a globally renowned leader in the IT industry. 
+                        <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="TCS22.png" alt="">
+                    <div class="layer">
+                        <h3>Interpersonal skill</h3>
+                        I successful complete the Interpersonal Skills Certification program offered by TCS, a global leader in the IT industry. 
+                        <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="CSS.png" alt="">
+                    <div class="layer">
+                        <h3>CSS</h3>
+                        I completed the HackerRank CSS Certification program, a significant accomplishment in my journey as a web developer and designer. 
+                        <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="tata1.png" alt="">
+                    <div class="layer">
+                        <h3>Data visualisation</h3>
+                        I successful completed the Data Visualization Certification program offered by the prestigious Tata Group.
+                        <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="cog1.png" alt="">
+                    <div class="layer">
+                        <h3>AI</h3>
+                        I successfully completed the AI Certification program offered by Cognizant, a global leader in IT services and technology solutions.
+                        <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="cd.png" alt="">
+                    <div class="layer">
+                        <h3>Python</h3>
+                        I successful completed the Python program offered by Coding Ninza, a renowned platform for coding education and skill development. 
+                        <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="int1.png" alt="">
+                    <div class="layer">
+                        <h3>Interships</h3>
+                         I have successfully completed the Web Development Internship program with Code Clause.This journey has been a transformative experience. 
+                        <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                    </div>
+                </div>
+            </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <!-- --------------contact------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>ayusharun4@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>8809583554</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/ayush.das.3133719"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/ayusharun/"><i class="fa fa-linkedin-square"></i></a>
+                        <a href="https://www.instagram.com/ishuraj955/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCa7hqPZZrGg_ojp4mYho_aw"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <a href="Ayush.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="your Name" required>
+                        <input type="email" name="Email" placeholder="your email" required>
+                        <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+<span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Ayush <i class="fas fa-heart"></i> All rights reserved. </p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+
+    </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbySyjrK3M-Qb-eXHx5v2zRpPXYUv8XJpWmGBspPBey2eUp9rW3SPWDQF6Cd7zNCzfez/exec '
+  const form = document.forms['submit-to-google-sheet']
+ const msg=document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },4000)
+        form.reset()
+   } )
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+
+</html>
